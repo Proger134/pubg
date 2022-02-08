@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet">
+		
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container _container">
+		<div class="header__body navigation">
+			<button type='button' class='icon-menu'>
+				<span></span>
+				<span></span>
+			</button>
+			<a href="#first-screen" class="navigation__logo">PUBG</a>
+			<div class='menu'>
+				<nav class='menu__body'>
+					<ul class='menu__list'>
+						<li class='menu__item'>
+							<a href='#first-screen' class='menu__link'>ГЛАВНАЯ</a>
+						</li>
+						<li class='menu__item'>
+							<a href='#tariffs' class='menu__link'>ТАРИФЫ</a>
+						</li>
+						<li class='menu__item'>
+							<a href='#reviews' class='menu__link'>ОТЗЫВЫ</a>
+						</li>
+						<li class='menu__item'>
+							<a href='#faq' class='menu__link'>FAQ</a>
+						</li>
+						<li class='menu__item'>
+							<a href='#contacts' class='menu__link'>КОНТАКТЫ</a>
+						</li>
+						<li class='menu__item'>
+							<a href='#functional' class='menu__link'>ФУНКЦИОНАЛ</a>
+						</li>
+						<li class='menu__item menu__item_hidden'>
+							<a href='#functional' class='menu__link'>ВОЙТИ</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="navigation__settings">
+				<form class="navigation__language">
+					<select name="form[]" class="navigation__select navigation__select_top">
+						<option value="1" selected="selected">
+							<img src="img/header/ru.svg" alt=""> RU
+						</option>
+						<option	value="2">
+							<img src="img/header/ru.svg" alt=""> EN
+						</option>
+					</select>
+				</form>
+				<a href="" class="navigation__signin">
+					<img src="img/header/user.svg" alt="">
+				</a>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section id="first-screen" class="page__first-screen first-screen">
+				<img src="img/first-screen/bg.png" alt="" class="first-screen__bg">
+				<img src="img/first-screen/bg-mob.png" alt="" class="first-screen__bgmob">
+				<img src="img/first-screen/car.png" alt="" data-wow-delay="1.5s" class="wow slideInRight first-screen__car">
+				<div class='first-screen__container _container'>
+					<div class="first-screen__body">
+						<div class="first-screen__content">
+							<h1 class="first-screen__title wow fadeIn"> <span>ЧИТЫ</span>  НА P<img src="img/first-screen/illust.svg" alt="">
+								<span>UBG</span>
+								ЛУЧШИЕ НА РЫНКЕ
+								БЕЗ БАНА!
+							</h1>
+							<div class="first-screen__line  wow fadeIn"></div>
+							<p class="first-screen__text wow fadeIn" data-wow-delay=".2s">Лучшие сборки на рынке, проверенные опытом и временем, а
+								также,
+								оптимальное соотношение цены, надежности и производительности
+							</p>
+							<p class="first-screen__text wow fadeIn" data-wow-delay=".3s">Самая низкая цена за мегахеш</p>
+							<div class="first-screen__buttons">
+								<a href="" class="first-screen__buy button-buy">Купить <img
+										src="img/common/arrow-right.svg" alt=""></a>
+								<a href="" class="first-screen__watch">Посмотреть видео</a>
+							</div>
+							
+						</div>
+						<img src="img/first-screen/rifle-2.png" alt="" data-wow-delay="2s" class="wow fadeIn first-screen__illustration">
+					</div>
+				</div>
+			</section>
+
+			<section id="functional" class="page__functional functional">
+				<div class='functional__container _container'>
+					<div class="functional__header">
+
+					</div>
+					<div class="functional__tabs _tabs">
+						<nav class="functional__nav tabs-nav"> 
+							<div class="tabs-nav__item functional-windows _tabs-item">
+								<svg width="33" height="29" viewBox="0 0 33 29" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M12.2646 0.0133711C10.5922 0.146169 9.11759 0.518738 7.00865 1.34133C6.91009 1.37976 6.83397 1.4288 6.81895 1.46356C6.80517 1.4955 6.09702 3.92911 5.24531 6.87163C4.3936 9.81414 3.69043 12.2428 3.68272 12.2687C3.67201 12.3047 3.7733 12.274 4.11301 12.1385C5.74724 11.4863 7.31402 11.0502 8.66412 10.8718C8.937 10.8357 9.2368 10.8232 9.84553 10.8226C10.5587 10.822 10.7161 10.8301 11.0973 10.8871C12.5902 11.1105 13.866 11.6407 15.578 12.7492C15.7604 12.8673 15.9187 12.9639 15.9296 12.9639C15.9467 12.9639 19.089 2.1982 19.0867 2.14767C19.0857 2.12638 18.3528 1.65448 17.9466 1.41362C17.5461 1.17609 16.7968 0.806995 16.3855 0.64459C15.5163 0.301376 14.6728 0.102473 13.7554 0.0243513C13.4482 -0.00181061 12.5401 -0.00850514 12.2646 0.0133711ZM19.1999 8.68531C18.3422 11.6471 17.6359 14.1019 17.6303 14.1404C17.6213 14.2032 17.6618 14.2368 18.023 14.4661C19.3588 15.3144 20.3705 15.7738 21.5539 16.0695C23.4461 16.5423 25.5156 16.401 27.8462 15.64C28.3515 15.4751 29.3357 15.0985 29.7008 14.9305L29.8658 14.8546L31.4372 9.43636C32.3015 6.45634 33.0047 4.01429 33 4.00956C32.9952 4.00485 32.8784 4.04656 32.7403 4.10227C32.6022 4.15799 32.2551 4.28874 31.9689 4.39283C29.2982 5.36401 27.0133 5.63832 25.0083 5.2285C23.7531 4.97192 22.5122 4.42479 21.0947 3.50302C20.9233 3.39151 20.7776 3.30027 20.7711 3.30027C20.7646 3.30027 20.0575 5.72353 19.1999 8.68531ZM8.71307 12.8271C7.13498 12.9082 5.31192 13.3553 3.39322 14.1317L3.12929 14.2386L1.56206 19.6866C0.70008 22.6829 -0.00283243 25.1377 8.58186e-06 25.1416C0.00287773 25.1455 0.238316 25.0589 0.523205 24.9491C2.91883 24.0266 5.03645 23.6321 6.81313 23.7775C8.53808 23.9187 9.97276 24.4595 11.8391 25.6721C12.0382 25.8015 12.2043 25.9037 12.2082 25.8991C12.2121 25.8946 12.933 23.4343 13.8102 20.4318C15.1231 15.9381 15.3986 14.9667 15.3679 14.9379C15.2997 14.874 14.4569 14.3436 14.132 14.1602C12.6482 13.3223 11.2477 12.8899 9.84553 12.8366C9.64441 12.8289 9.39758 12.819 9.29702 12.8146C9.19646 12.8101 8.93368 12.8158 8.71307 12.8271ZM15.5038 21.418C14.6417 24.3864 13.9373 26.8278 13.9383 26.8432C13.9426 26.9062 15.2678 27.714 15.8197 27.99C18.3907 29.2758 21.1028 29.3319 24.5991 28.1716C25.0177 28.0326 25.9442 27.6873 26.1081 27.609C26.1846 27.5725 26.2327 27.414 27.7576 22.1695C28.6215 19.1984 29.3221 16.7614 29.3144 16.7537C29.3068 16.7461 29.1003 16.8181 28.8556 16.9137C27.2571 17.5382 25.6857 17.9436 24.2756 18.0955C23.8377 18.1426 22.5658 18.1427 22.18 18.0956C20.5337 17.8947 19.158 17.3657 17.5321 16.3084C17.335 16.1803 17.1507 16.0631 17.1225 16.0481C17.075 16.0228 16.9522 16.4305 15.5038 21.418Z"
+										fill="#AAAAAA" />
+								</svg>
+								<div class="tabs-nav__text">Windows</div>
+							</div>
+							<div class="tabs-nav__item functional-android _tabs-item">
+								<svg width="33" height="39" viewBox="0 0 33 39" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M8.56336 0.0608756C8.33905 0.141831 8.23446 0.580118 8.32567 1.05644C8.38628 1.37258 8.42617 1.42126 9.47091 2.45405L10.5533 3.52412L10.1766 3.8477C8.01103 5.70794 6.75027 8.20449 6.61152 10.9072L6.59003 11.3253H16.4893H26.3886L26.3673 10.9072C26.2251 8.11747 24.8614 5.48254 22.7293 3.87786L22.2796 3.53942L23.3484 2.49264C24.6368 1.23074 24.784 0.988984 24.5544 0.511675C24.3638 0.115816 23.8558 -0.0585447 23.4743 0.141026C23.3811 0.189835 22.7425 0.786254 22.0555 1.46636L20.8061 2.70299L20.171 2.37328C19.1167 1.8261 18.0275 1.60076 16.4362 1.60076C15.0614 1.60076 13.7448 1.84642 12.5899 2.31846L12.0332 2.54597L11.4461 1.934C11.1231 1.59742 10.6124 1.05724 10.3111 0.733605C10.0099 0.409969 9.6868 0.111604 9.59308 0.0705382C9.38944 -0.0186553 8.79898 -0.024168 8.56336 0.0608756ZM13.1601 7.30463V8.10818L12.3593 8.09083L11.5584 8.07349L11.5406 7.3338C11.5308 6.92698 11.5342 6.56463 11.5481 6.52858C11.5647 6.48585 11.8496 6.46968 12.3669 6.48207L13.1601 6.50108V7.30463ZM21.438 7.30432L21.4203 8.07349L20.6194 8.09083L19.8185 8.10818V7.30302V6.49786L20.588 6.48046C21.0112 6.47086 21.3796 6.47928 21.4066 6.4991C21.4336 6.51892 21.4477 6.88127 21.438 7.30432ZM6.59273 13.0147C6.57577 13.0583 6.56955 16.8143 6.57898 21.3613C6.59512 29.192 6.60203 29.644 6.71057 29.9192C6.84921 30.2709 7.27553 30.676 7.61014 30.7742C7.74331 30.8132 8.31166 30.8611 8.87304 30.8805L9.89377 30.9157L9.89447 33.8956C9.89516 37.0528 9.90037 37.1175 10.2018 37.7002C10.3992 38.0815 10.934 38.5727 11.3722 38.7749C12.6748 39.376 14.1483 38.718 14.7336 37.274C14.8008 37.1082 14.8272 36.3833 14.8536 33.9776L14.8875 30.8938H16.4893H18.0911L18.125 33.9776C18.1514 36.3833 18.1778 37.1082 18.2451 37.274C18.7007 38.398 19.7361 39.0901 20.8137 38.9908C21.8146 38.8987 22.6856 38.1684 22.9955 37.1617C23.0657 36.9334 23.0837 36.2728 23.0842 33.8956L23.0849 30.9157L24.1056 30.8805C24.6671 30.8611 25.2353 30.8132 25.3685 30.7742C25.7281 30.6687 26.1342 30.2687 26.2693 29.8871C26.3764 29.5844 26.3827 29.1079 26.3827 21.2667V12.9667L16.5031 12.9511C8.52297 12.9384 6.61767 12.9506 6.59273 13.0147ZM1.63765 13.1311C0.967921 13.3919 0.416785 13.9334 0.14398 14.5987L0.000448347 14.9488V21.0809C0.000448347 28.0018 -0.033911 27.5091 0.498947 28.2229C1.53947 29.6166 3.5878 29.5346 4.54698 28.0607C4.94083 27.4555 4.93141 27.626 4.93141 21.1119C4.93141 14.6798 4.93763 14.8029 4.58316 14.2065C4.40288 13.9032 3.91287 13.4297 3.6297 13.2853C3.01399 12.9714 2.20814 12.909 1.63765 13.1311ZM29.7315 13.12C29.1703 13.3307 28.6761 13.7382 28.3733 14.24C28.0449 14.7845 28.0472 14.7341 28.0472 21.1119C28.0472 27.626 28.0378 27.4555 28.4317 28.0607C28.9 28.7804 29.688 29.2238 30.5013 29.2253C31.5026 29.2272 32.4352 28.5811 32.8414 27.604C32.9782 27.2749 32.9782 27.2736 32.9962 21.3906C33.0082 17.4731 32.992 15.3648 32.9477 15.0831C32.8061 14.1812 32.2039 13.461 31.3123 13.1267C30.8766 12.9635 30.1568 12.9604 29.7315 13.12Z"
+										fill="#AAAAAA" />
+								</svg>
+								<div class="tabs-nav__text">Android</div>
+							</div>
+							<div class="tabs-nav__item functional-ios _tabs-item _active">
+								<svg width="30" height="40" viewBox="0 0 30 40" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M23.5248 0.0613145C19.7652 0.622255 17.125 2.35684 15.8438 5.10778C15.3168 6.23926 15.0068 7.6242 15.0068 8.84732V9.19325L15.3551 9.16602C16.5022 9.07633 17.7909 8.78617 18.7576 8.39995C21.9018 7.14372 23.7674 4.43462 24.0054 0.779871C24.0465 0.14843 24.0354 -0.00743045 23.9498 0.000529926C23.9239 0.00297927 23.7327 0.0302895 23.5248 0.0613145ZM21.7135 12.2704C20.5441 12.3459 20.067 12.4648 17.4949 13.3217L15.2266 14.0776L13.9923 13.6674C13.3134 13.4418 12.4336 13.1491 12.0373 13.0168C10.7943 12.6022 9.87402 12.459 8.71799 12.5005C5.88747 12.602 3.68468 13.9682 1.89296 16.7334C-0.577826 20.5466 -0.629888 25.3796 1.7369 31.2145C3.24326 34.928 5.1885 37.7647 7.15399 39.114C8.27037 39.8804 9.31368 40.1311 10.5823 39.9379C11.0929 39.8602 11.5767 39.7052 12.3185 39.3818C13.7099 38.7753 14.3296 38.6162 15.6329 38.5311C16.1753 38.4957 16.3382 38.4993 16.6479 38.5533C17.3252 38.6714 18.3211 38.9423 19.2657 39.2654C20.9405 39.8384 21.1999 39.8978 22.0121 39.894C22.4978 39.8918 22.6491 39.875 22.9673 39.7881C23.905 39.5321 24.749 38.9646 25.6899 37.9575C27.2509 36.2868 28.7433 33.7476 29.7452 31.058C30.0178 30.3261 30.0295 30.2864 29.9723 30.2864C29.8985 30.2864 29.1661 29.8976 28.8098 29.6692C26.9427 28.4725 25.7172 26.7337 25.2909 24.6761C25.207 24.2713 25.1851 24.0326 25.1677 23.3377C25.1442 22.3938 25.1854 21.8463 25.3388 21.0642C25.6666 19.3927 26.4505 17.9322 27.5446 16.9547C27.9115 16.6268 28.4632 16.2492 28.8015 16.0942C28.9409 16.0304 29.0555 15.969 29.0561 15.9577C29.0589 15.9039 28.4973 15.1824 28.2116 14.8728C26.5416 13.0634 24.1665 12.1122 21.7135 12.2704Z"
+										fill="#AAAAAA" />
+								</svg>
+								<div class="tabs-nav__text">iOS</div>
+							</div>
+						</nav>
+						<div class="functional__content">
+							<div class="functional__block _tabs-block">
+								<div class="functional__wrapper">
+									<div class="functional__slider funcitonal-slider">
+										<div class="funcitonal-slider__swiper _swiper">
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+										</div>
+										<div class="funcitonal-slider__arrows">
+											<button class="funcitonal-slider-arrow funcitonal-slider-arrow-prev ">
+												<img src="img/functional/arrow.svg" alt="">
+												<img src="img/functional/arrow-2.svg" alt="">
+											</button>
+											<button class="funcitonal-slider-arrow funcitonal-slider-arrow-next">
+												<img src="img/functional/arrow.svg" alt="">
+												<img src="img/functional/arrow-2.svg" alt="">
+											</button>
+										</div>
+									</div>
+									<div class="functional__main">
+										<div class="functional__top functional__top_windows" data-da=".functional__header,1350">
+											<h2 class="functional__title _title "><span>ФУНКЦИОНАЛ</span></h2>
+											<p class="functional__text">Уникальный чит на windows подойдет для всех </p>
+										</div>
+										<h5 class="functional__description">ОПИСАНИЕ:</h5>
+										<ul class="functional__items">
+											<li class="functional__item">
+												<span>WallHack -</span> обнаруживает
+												противников сквозь стены.
+											</li>
+											<li class="functional__item">
+												<span>AntiRecoil -</span> отключает
+												отдачу на любом оружие.
+											</li>
+											<li class="functional__item">
+												<span>Aimbot -</span> автоматически
+												наводит прицел на противника.
+											</li>
+											<li class="functional__item">
+												<span>Drop -</span> показывает
+												топовые вещи сквозь стены.
+											</li>
+										</ul>
+										<div class="functional__danger"><img src="img/functional/danger.svg"
+												alt=""><span>Рекомендуем, оставить стандартные параметры в чите</span>
+										</div>
+										<div class="functional__buttons">
+											<a href="" class="functional__buy button-buy">Купить<img
+													src="img/common/arrow-right.svg" alt=""></a>
+											<a href="" class="functional__play">Посмотреть видео<img
+													src="img/functional/play.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="functional__block _tabs-block">
+								<div class="functional__wrapper">
+									<div class="functional__slider funcitonal-slider">
+										<div class="funcitonal-slider__swiper _swiper">
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+										</div>
+										<div class="funcitonal-slider__arrows">
+											<button class="funcitonal-slider-arrow funcitonal-slider-arrow-prev ">
+												<img src="img/functional/arrow.svg" alt="">
+												<img src="img/functional/arrow-2.svg" alt="">
+											</button>
+											<button class="funcitonal-slider-arrow funcitonal-slider-arrow-next">
+												<img src="img/functional/arrow.svg" alt="">
+												<img src="img/functional/arrow-2.svg" alt="">
+											</button>
+										</div>
+									</div>
+									<div class="functional__main">
+										<div class="functional__top functional__top_android" data-da=".functional__header,1350">
+											<h2 class="functional__title _title "><span>ФУНКЦИОНАЛ</span></h2>
+											<p class="functional__text">Уникальный чит на android подойдет для всех устройств
+												на андроиде </p>
+										</div>
+										<h5 class="functional__description">ОПИСАНИЕ:</h5>
+										<ul class="functional__items">
+											<li class="functional__item">
+												<span>WallHack -</span> обнаруживает
+												противников сквозь стены.
+											</li>
+											<li class="functional__item">
+												<span>AntiRecoil -</span> отключает
+												отдачу на любом оружие.
+											</li>
+											<li class="functional__item">
+												<span>Aimbot -</span> автоматически
+												наводит прицел на противника.
+											</li>
+											<li class="functional__item">
+												<span>Drop -</span> показывает
+												топовые вещи сквозь стены.
+											</li>
+										</ul>
+										<div class="functional__danger"><img src="img/functional/danger.svg"
+												alt=""><span>Рекомендуем, оставить стандартные параметры в чите</span>
+										</div>
+										<div class="functional__buttons">
+											<a href="" class="functional__buy button-buy">Купить<img
+													src="img/common/arrow-right.svg" alt=""></a>
+											<a href="" class="functional__play">Посмотреть видео<img
+													src="img/functional/play.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="functional__block _tabs-block _active">
+								<div class="functional__wrapper">
+									<div class="functional__slider funcitonal-slider">
+										<div class="funcitonal-slider__swiper _swiper">
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+											<div class="funcitonal-slider__slide">
+												<img src="img/functional/phone.png" alt="" class="">
+											</div>
+										</div>
+										<div class="funcitonal-slider__arrows">
+											<button class="funcitonal-slider-arrow funcitonal-slider-arrow-prev ">
+												<img src="img/functional/arrow.svg" alt="">
+												<img src="img/functional/arrow-2.svg" alt="">
+											</button>
+											<button class="funcitonal-slider-arrow funcitonal-slider-arrow-next">
+												<img src="img/functional/arrow.svg" alt="">
+												<img src="img/functional/arrow-2.svg" alt="">
+											</button>
+										</div>
+									</div>
+									<div class="functional__main">
+										<div class="functional__top functional__top_ios" data-da=".functional__header,1350">
+											<h2 class="functional__title _title wow fadeIn"><span>ФУНКЦИОНАЛ</span></h2>
+											<p class="functional__text wow fadeIn" data-wow-delay=".3s">Уникальный чит на iOS подойдет для всех устройств
+												начиная от айфона 4S+. </p>
+										</div>
+										<h5 class="functional__description">ОПИСАНИЕ:</h5>
+										<ul class="functional__items">
+											<li class="functional__item wow fadeInRight" data-wow-delay=".4s">
+												<span>WallHack -</span> обнаруживает
+												противников сквозь стены.
+											</li>
+											<li class="functional__item wow fadeInRight" data-wow-delay=".5s">
+												<span>AntiRecoil -</span> отключает
+												отдачу на любом оружие.
+											</li>
+											<li class="functional__item wow fadeInRight" data-wow-delay=".6s">
+												<span>Aimbot -</span> автоматически
+												наводит прицел на противника.
+											</li>
+											<li class="functional__item wow fadeInRight" data-wow-delay=".7s">
+												<span>Drop -</span> показывает
+												топовые вещи сквозь стены.
+											</li>
+										</ul>
+										<div class="functional__danger"><img src="img/functional/danger.svg"
+												alt=""><span>Рекомендуем, оставить стандартные параметры в чите</span>
+										</div>
+										<div class="functional__buttons">
+											<a href="" class="functional__buy button-buy">Купить<img
+													src="img/common/arrow-right.svg" alt=""></a>
+											<a href="" class="functional__play">Посмотреть видео<img
+													src="img/functional/play.svg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="reviews" class="page__reviews reviews">
+				<img src="img/reviews/bg.png" alt="" class="reviews__backround">
+				<img src="img/reviews/bg-mob.png" alt="" class="reviews__bg">
+				<div class='reviews__container _container'>
+					<div class="reviews__body">
+						<h2 class="reviews__title _title wow fadeIn">ЧТО ГОВОРЯТ О НАС</h2>
+						<div class="reviews__slider slider-reviews">
+							<button class="slider-reviews__prev slider-reviews-arrow slider-reviews-arrow-prev"><img
+									src="img/reviews/arrow.svg" alt=""></button>
+							<div class="slider-reviews__swiper _swiper">
+								<div class="slider-reviews__slide">
+									<img src="img/reviews/photo.png" alt="" class="slider-reviews__photo">
+									<h4 class="slider-reviews__name">Егор Черняев<div class="slider-reviews__sign">
+										</div>
+									</h4>
+									<p class="slider-reviews__review">Рекомендую данный софт! Аналогов не нашел нигде, я
+										решил не
+										заморачиваться и сразу приобрел ПРО версию и
+										теперь играю в свое удовольствие.</p>
+								</div>
+								<div class="slider-reviews__slide">
+									<img src="img/reviews/photo.png" alt="" class="slider-reviews__photo">
+									<h4 class="slider-reviews__name">Егор Черняев<div class="slider-reviews__sign">
+										</div>
+									</h4>
+									<p class="slider-reviews__review">Рекомендую данный софт! Аналогов не нашел нигде, я
+										решил не
+										заморачиваться и сразу приобрел ПРО версию и
+										теперь играю в свое удовольствие.</p>
+								</div>
+							</div>
+							<button class="slider-reviews__next slider-reviews-arrow slider-reviews-arrow-next"><img
+									src="img/reviews/arrow.svg" alt=""></button>
+							<div class="slider-reviews__arrows">
+								<button
+									class="slider-reviews__prev slider-reviews-arrow-mobile slider-reviews-arrow-mobile-prev"><img
+										src="img/reviews/arrow-mobile.svg" alt=""></button>
+								<button
+									class="slider-reviews__next slider-reviews-arrow-mobile slider-reviews-arrow-mobile-next"><img
+										src="img/reviews/arrow-mobile.svg" alt=""></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="tariffs" class="page__tariffs tariffs">
+				<div class='tariffs__container _container'>
+					<div class="tariffs__body">
+						<h2 class="tariffs__title _title wow fadeIn">ТАРИФЫ</h2>
+						<div class="tariffs__tabs _tabs">
+							<nav class="tariffs__nav tabs-nav">
+								<div class="tabs-nav__item _tabs-item">
+									<svg width="33" height="29" viewBox="0 0 33 29" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M12.2646 0.0133711C10.5922 0.146169 9.11759 0.518738 7.00865 1.34133C6.91009 1.37976 6.83397 1.4288 6.81895 1.46356C6.80517 1.4955 6.09702 3.92911 5.24531 6.87163C4.3936 9.81414 3.69043 12.2428 3.68272 12.2687C3.67201 12.3047 3.7733 12.274 4.11301 12.1385C5.74724 11.4863 7.31402 11.0502 8.66412 10.8718C8.937 10.8357 9.2368 10.8232 9.84553 10.8226C10.5587 10.822 10.7161 10.8301 11.0973 10.8871C12.5902 11.1105 13.866 11.6407 15.578 12.7492C15.7604 12.8673 15.9187 12.9639 15.9296 12.9639C15.9467 12.9639 19.089 2.1982 19.0867 2.14767C19.0857 2.12638 18.3528 1.65448 17.9466 1.41362C17.5461 1.17609 16.7968 0.806995 16.3855 0.64459C15.5163 0.301376 14.6728 0.102473 13.7554 0.0243513C13.4482 -0.00181061 12.5401 -0.00850514 12.2646 0.0133711ZM19.1999 8.68531C18.3422 11.6471 17.6359 14.1019 17.6303 14.1404C17.6213 14.2032 17.6618 14.2368 18.023 14.4661C19.3588 15.3144 20.3705 15.7738 21.5539 16.0695C23.4461 16.5423 25.5156 16.401 27.8462 15.64C28.3515 15.4751 29.3357 15.0985 29.7008 14.9305L29.8658 14.8546L31.4372 9.43636C32.3015 6.45634 33.0047 4.01429 33 4.00956C32.9952 4.00485 32.8784 4.04656 32.7403 4.10227C32.6022 4.15799 32.2551 4.28874 31.9689 4.39283C29.2982 5.36401 27.0133 5.63832 25.0083 5.2285C23.7531 4.97192 22.5122 4.42479 21.0947 3.50302C20.9233 3.39151 20.7776 3.30027 20.7711 3.30027C20.7646 3.30027 20.0575 5.72353 19.1999 8.68531ZM8.71307 12.8271C7.13498 12.9082 5.31192 13.3553 3.39322 14.1317L3.12929 14.2386L1.56206 19.6866C0.70008 22.6829 -0.00283243 25.1377 8.58186e-06 25.1416C0.00287773 25.1455 0.238316 25.0589 0.523205 24.9491C2.91883 24.0266 5.03645 23.6321 6.81313 23.7775C8.53808 23.9187 9.97276 24.4595 11.8391 25.6721C12.0382 25.8015 12.2043 25.9037 12.2082 25.8991C12.2121 25.8946 12.933 23.4343 13.8102 20.4318C15.1231 15.9381 15.3986 14.9667 15.3679 14.9379C15.2997 14.874 14.4569 14.3436 14.132 14.1602C12.6482 13.3223 11.2477 12.8899 9.84553 12.8366C9.64441 12.8289 9.39758 12.819 9.29702 12.8146C9.19646 12.8101 8.93368 12.8158 8.71307 12.8271ZM15.5038 21.418C14.6417 24.3864 13.9373 26.8278 13.9383 26.8432C13.9426 26.9062 15.2678 27.714 15.8197 27.99C18.3907 29.2758 21.1028 29.3319 24.5991 28.1716C25.0177 28.0326 25.9442 27.6873 26.1081 27.609C26.1846 27.5725 26.2327 27.414 27.7576 22.1695C28.6215 19.1984 29.3221 16.7614 29.3144 16.7537C29.3068 16.7461 29.1003 16.8181 28.8556 16.9137C27.2571 17.5382 25.6857 17.9436 24.2756 18.0955C23.8377 18.1426 22.5658 18.1427 22.18 18.0956C20.5337 17.8947 19.158 17.3657 17.5321 16.3084C17.335 16.1803 17.1507 16.0631 17.1225 16.0481C17.075 16.0228 16.9522 16.4305 15.5038 21.418Z"
+											fill="#AAAAAA" />
+									</svg>
+									<div class="tabs-nav__text">Windows</div>
+								</div>
+								<div class="tabs-nav__item _tabs-item">
+									<svg width="33" height="39" viewBox="0 0 33 39" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M8.56336 0.0608756C8.33905 0.141831 8.23446 0.580118 8.32567 1.05644C8.38628 1.37258 8.42617 1.42126 9.47091 2.45405L10.5533 3.52412L10.1766 3.8477C8.01103 5.70794 6.75027 8.20449 6.61152 10.9072L6.59003 11.3253H16.4893H26.3886L26.3673 10.9072C26.2251 8.11747 24.8614 5.48254 22.7293 3.87786L22.2796 3.53942L23.3484 2.49264C24.6368 1.23074 24.784 0.988984 24.5544 0.511675C24.3638 0.115816 23.8558 -0.0585447 23.4743 0.141026C23.3811 0.189835 22.7425 0.786254 22.0555 1.46636L20.8061 2.70299L20.171 2.37328C19.1167 1.8261 18.0275 1.60076 16.4362 1.60076C15.0614 1.60076 13.7448 1.84642 12.5899 2.31846L12.0332 2.54597L11.4461 1.934C11.1231 1.59742 10.6124 1.05724 10.3111 0.733605C10.0099 0.409969 9.6868 0.111604 9.59308 0.0705382C9.38944 -0.0186553 8.79898 -0.024168 8.56336 0.0608756ZM13.1601 7.30463V8.10818L12.3593 8.09083L11.5584 8.07349L11.5406 7.3338C11.5308 6.92698 11.5342 6.56463 11.5481 6.52858C11.5647 6.48585 11.8496 6.46968 12.3669 6.48207L13.1601 6.50108V7.30463ZM21.438 7.30432L21.4203 8.07349L20.6194 8.09083L19.8185 8.10818V7.30302V6.49786L20.588 6.48046C21.0112 6.47086 21.3796 6.47928 21.4066 6.4991C21.4336 6.51892 21.4477 6.88127 21.438 7.30432ZM6.59273 13.0147C6.57577 13.0583 6.56955 16.8143 6.57898 21.3613C6.59512 29.192 6.60203 29.644 6.71057 29.9192C6.84921 30.2709 7.27553 30.676 7.61014 30.7742C7.74331 30.8132 8.31166 30.8611 8.87304 30.8805L9.89377 30.9157L9.89447 33.8956C9.89516 37.0528 9.90037 37.1175 10.2018 37.7002C10.3992 38.0815 10.934 38.5727 11.3722 38.7749C12.6748 39.376 14.1483 38.718 14.7336 37.274C14.8008 37.1082 14.8272 36.3833 14.8536 33.9776L14.8875 30.8938H16.4893H18.0911L18.125 33.9776C18.1514 36.3833 18.1778 37.1082 18.2451 37.274C18.7007 38.398 19.7361 39.0901 20.8137 38.9908C21.8146 38.8987 22.6856 38.1684 22.9955 37.1617C23.0657 36.9334 23.0837 36.2728 23.0842 33.8956L23.0849 30.9157L24.1056 30.8805C24.6671 30.8611 25.2353 30.8132 25.3685 30.7742C25.7281 30.6687 26.1342 30.2687 26.2693 29.8871C26.3764 29.5844 26.3827 29.1079 26.3827 21.2667V12.9667L16.5031 12.9511C8.52297 12.9384 6.61767 12.9506 6.59273 13.0147ZM1.63765 13.1311C0.967921 13.3919 0.416785 13.9334 0.14398 14.5987L0.000448347 14.9488V21.0809C0.000448347 28.0018 -0.033911 27.5091 0.498947 28.2229C1.53947 29.6166 3.5878 29.5346 4.54698 28.0607C4.94083 27.4555 4.93141 27.626 4.93141 21.1119C4.93141 14.6798 4.93763 14.8029 4.58316 14.2065C4.40288 13.9032 3.91287 13.4297 3.6297 13.2853C3.01399 12.9714 2.20814 12.909 1.63765 13.1311ZM29.7315 13.12C29.1703 13.3307 28.6761 13.7382 28.3733 14.24C28.0449 14.7845 28.0472 14.7341 28.0472 21.1119C28.0472 27.626 28.0378 27.4555 28.4317 28.0607C28.9 28.7804 29.688 29.2238 30.5013 29.2253C31.5026 29.2272 32.4352 28.5811 32.8414 27.604C32.9782 27.2749 32.9782 27.2736 32.9962 21.3906C33.0082 17.4731 32.992 15.3648 32.9477 15.0831C32.8061 14.1812 32.2039 13.461 31.3123 13.1267C30.8766 12.9635 30.1568 12.9604 29.7315 13.12Z"
+											fill="#AAAAAA" />
+									</svg>
+									<div class="tabs-nav__text">Android</div>
+								</div>
+								<div class="tabs-nav__item _tabs-item _active">
+									<svg width="30" height="40" viewBox="0 0 30 40" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd"
+											d="M23.5248 0.0613145C19.7652 0.622255 17.125 2.35684 15.8438 5.10778C15.3168 6.23926 15.0068 7.6242 15.0068 8.84732V9.19325L15.3551 9.16602C16.5022 9.07633 17.7909 8.78617 18.7576 8.39995C21.9018 7.14372 23.7674 4.43462 24.0054 0.779871C24.0465 0.14843 24.0354 -0.00743045 23.9498 0.000529926C23.9239 0.00297927 23.7327 0.0302895 23.5248 0.0613145ZM21.7135 12.2704C20.5441 12.3459 20.067 12.4648 17.4949 13.3217L15.2266 14.0776L13.9923 13.6674C13.3134 13.4418 12.4336 13.1491 12.0373 13.0168C10.7943 12.6022 9.87402 12.459 8.71799 12.5005C5.88747 12.602 3.68468 13.9682 1.89296 16.7334C-0.577826 20.5466 -0.629888 25.3796 1.7369 31.2145C3.24326 34.928 5.1885 37.7647 7.15399 39.114C8.27037 39.8804 9.31368 40.1311 10.5823 39.9379C11.0929 39.8602 11.5767 39.7052 12.3185 39.3818C13.7099 38.7753 14.3296 38.6162 15.6329 38.5311C16.1753 38.4957 16.3382 38.4993 16.6479 38.5533C17.3252 38.6714 18.3211 38.9423 19.2657 39.2654C20.9405 39.8384 21.1999 39.8978 22.0121 39.894C22.4978 39.8918 22.6491 39.875 22.9673 39.7881C23.905 39.5321 24.749 38.9646 25.6899 37.9575C27.2509 36.2868 28.7433 33.7476 29.7452 31.058C30.0178 30.3261 30.0295 30.2864 29.9723 30.2864C29.8985 30.2864 29.1661 29.8976 28.8098 29.6692C26.9427 28.4725 25.7172 26.7337 25.2909 24.6761C25.207 24.2713 25.1851 24.0326 25.1677 23.3377C25.1442 22.3938 25.1854 21.8463 25.3388 21.0642C25.6666 19.3927 26.4505 17.9322 27.5446 16.9547C27.9115 16.6268 28.4632 16.2492 28.8015 16.0942C28.9409 16.0304 29.0555 15.969 29.0561 15.9577C29.0589 15.9039 28.4973 15.1824 28.2116 14.8728C26.5416 13.0634 24.1665 12.1122 21.7135 12.2704Z"
+											fill="#AAAAAA" />
+									</svg>
+									<div class="tabs-nav__text">iOS</div>
+								</div>
+							</nav>
+							<div class="tariffs__content">
+								<div class="tariffs__blc _tabs-block">
+									<div class="tariffs__card card-tariffs card-tariffs-normal">
+										<div class="card-tariffs__top">ОБЫЧНАЯ</div>
+										<h4 class="card-tariffs__time">1 месяц</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">549<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+									<div class="tariffs__card card-tariffs card-tariffs-standart">
+										<div class="card-tariffs__top">СТАНДАРТНАЯ</div>
+										<h4 class="card-tariffs__time">3 месяца</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">1 399<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+									<div class="tariffs__card card-tariffs card-tariffs-pro">
+										<div class="card-tariffs__top">PRO ВЕРСИЯ</div>
+										<h4 class="card-tariffs__time">Навсегда</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">2 799<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="tariffs__blc _tabs-block">
+									<div class="tariffs__card card-tariffs card-tariffs-normal">
+										<div class="card-tariffs__top">ОБЫЧНАЯ</div>
+										<h4 class="card-tariffs__time">1 месяц</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">649<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+									<div class="tariffs__card card-tariffs card-tariffs-standart">
+										<div class="card-tariffs__top">СТАНДАРТНАЯ</div>
+										<h4 class="card-tariffs__time">3 месяца</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">1 599<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+									<div class="tariffs__card card-tariffs card-tariffs-pro">
+										<div class="card-tariffs__top">PRO ВЕРСИЯ</div>
+										<h4 class="card-tariffs__time">Навсегда</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">2 899<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+								</div>
+								<div class="tariffs__blc _tabs-block _active">
+									<div data-wow-delay=".1s"  class="wow fadeInLeft tariffs__card card-tariffs card-tariffs-normal">
+										<div class="card-tariffs__top">ОБЫЧНАЯ</div>
+										<h4 class="card-tariffs__time">1 месяц</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item ">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">649<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+									<div data-wow-delay=".3s" class="wow fadeInLeft tariffs__card card-tariffs card-tariffs-standart">
+										<div class="card-tariffs__top">СТАНДАРТНАЯ</div>
+										<h4 class="card-tariffs__time">3 месяца</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/close.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">1 499<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+									<div data-wow-delay=".6s" class="wow fadeInLeft tariffs__card card-tariffs card-tariffs-pro">
+										<div class="card-tariffs__top">PRO ВЕРСИЯ</div>
+										<h4 class="card-tariffs__time">Навсегда</h4>
+										<ul class="card-tariffs__items">
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Весь функционал чита</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Обновления 1 раз в месяц</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Техническая поддержка</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Анти-Бан</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Улучшенная оптимизация</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">Запуск на других телефонах</p>
+											</li>
+											<li class="card-tariffs__item">
+												<img src="img/common/check.svg" alt="" class="card-tariffs__sign">
+												<p class="card-tariffs__text">DPI+, ASN, SKK</p>
+											</li>
+										</ul>
+										<div class="card-tariffs__price">2 899<div>₽</div>
+										</div>
+										<a href="" class="card-tariffs__bottom">
+											Приобрести<img src="img/common/arrow-right.svg" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="faq" class="page__faq faq">
+				<div class='faq__container _container'>
+					<div class="faq__body">
+						<h2 class="faq__title _title wow fadeIn">ЧАСТЫЕ ВОПРОСЫ</h2>
+						<div class="faq__content" data-spollers data-one-spoller>
+							<div class="faq__item wow fadeInLeftBig" data-wow-delay=".1s">
+								<div class="faq__top _active" data-spoller>
+									<div class="faq__caption">Какие у нас есть гарантии?</div>
+									<img src="img/faq/close.svg" alt="" class="faq__close">
+								</div>
+								<p class="faq__info">
+									Мы официальные диллеры данного чита. Нам доверяет огромное количество людей.
+									Также,Вы
+									можете посмотреть представленные скриншоты читов выше.
+								</p>
+							</div>
+							<div class="faq__item wow fadeInLeftBig" data-wow-delay=".3s">
+								<div class="faq__top" data-spoller>
+									<div class="faq__caption">Как устанавливаются читы?</div>
+									<img src="img/faq/close.svg" alt="" class="faq__close">
+								</div>
+								<p class="faq__info">
+									Мы официальные диллеры данного чита. Нам доверяет огромное количество людей.
+									Также,Вы
+									можете посмотреть представленные скриншоты читов выше.
+								</p>
+							</div>
+							<div class="faq__item wow fadeInLeftBig" data-wow-delay=".6s">
+								<div class="faq__top" data-spoller>
+									<div class="faq__caption">Что я получу после оплаты тарифа?</div>
+									<img src="img/faq/close.svg" alt="" class="faq__close">
+								</div>
+								<p class="faq__info">
+									Мы официальные диллеры данного чита. Нам доверяет огромное количество людей.
+									Также,Вы
+									можете посмотреть представленные скриншоты читов выше.
+								</p>
+							</div>
+							<div class="faq__item wow fadeInLeftBig" data-wow-delay=".9s">
+								<div class="faq__top" data-spoller>
+									<div class="faq__caption">Что такое DPI+, ASN, SKK?</div>
+									<img src="img/faq/close.svg" alt="" class="faq__close">
+								</div>
+								<p class="faq__info">
+									Мы официальные диллеры данного чита. Нам доверяет огромное количество людей.
+									Также,Вы
+									можете посмотреть представленные скриншоты читов выше.
+								</p>
+							</div>
+							<div class="faq__item wow fadeInLeftBig" data-wow-delay="1.1s">
+								<div class="faq__top" data-spoller>
+									<div class="faq__caption">Влияют-ли читы на FPS в игре?</div>
+									<img src="img/faq/close.svg" alt="" class="faq__close">
+								</div>
+								<p class="faq__info">
+									Мы официальные диллеры данного чита. Нам доверяет огромное количество людей.
+									Также,Вы
+									можете посмотреть представленные скриншоты читов выше.
+								</p>
+							</div>
+						</div>
+						<a href="" class="faq__question wow fadeIn" data-wow-delay="1.3s">У меня есть вопрос</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="contacts" class="page__contacts contacts"> 
+				<img src="img/contacts/bg.png" alt="" class="contacts__bg">
+				<img src="img/contacts/bg-mob.png" alt="" class="contacts__bgmob">
+				<div class='contacts__container _container'>
+					<div class="contacts__body">
+						<h2 class="contacts__title _title wow fadeIn">КОНТАКТЫ</h2>
+						<div class="contacts__content">
+							<div class="contacts__image">
+								<img src="img/contacts/box.png" alt="" class="contacts__box">
+								<img src="img/contacts/fire.png" alt="" class="contacts__fire">
+							</div>
+							<div class="contacts__block wow fadeIn">
+								<div class="contacts__links">
+									<a href="" class="contacts__link contacts__link_discord">
+										<img src="img/contacts/discord.svg" alt="">
+									</a>
+									<a href="" class="contacts__link contacts__link_telegram ">
+										<img src="img/contacts/telegram.svg" alt="">
+									</a>
+								</div>
+								<form action="" class="contacts__form form-contacts">
+									<h5 class="form-contacts__title">Обратная связь</h5>
+									<div class="form-contacts__line">
+										<div class="form-contacts__item">
+											<label class="form-contacts__top">
+												<img src="img/contacts/user.svg" alt="" class="form-contacts__ico">
+												<div class="form-contacts__desc">Ваше имя</div>
+											</label>
+											<input required class='input form-contacts__input' type='text' name='form[]' autocomplete='off' data-error='' data-value=''>
+										</div>
+										<div class="form-contacts__item">
+											<label class="form-contacts__top">
+												<img src="img/contacts/mail.svg" alt="" class="form-contacts__ico">
+												<div class="form-contacts__desc">E-mail</div>
+											</label>
+											<input required class='input form-contacts__input' type='text' name='form[]' autocomplete='off' data-error='' data-value=''>
+										</div>
+									</div>
+									<div class="form-contacts__item form-contacts__item_big">
+										<label class="form-contacts__top">
+											<img src="img/contacts/comment.svg" alt="" class="form-contacts__ico">
+											<div class="form-contacts__desc">Комментарий</div>
+										</label>
+										<textarea required class='input form-contacts__input'></textarea>
+									</div>
+									<div class="form-contacts__bottom">
+										<button class=" form-contacts__submit button-buy" type="submit">Отправить</button>
+
+									</div>
+								</form>
+							</div>				
+						</div>
+						<footer class="contacts__footer footer">
+							<div class="footer__main">
+								<div class="navigation">
+									<button type='button' class='icon-menu'>
+										<span></span>
+										<span></span>
+									</button>
+									<a href="#first-screen" class="navigation__logo">PUBG</a>
+									<div class='menu'>
+										<nav class='menu__body'>
+											<ul class='menu__list'>
+												<li class='menu__item'>
+													<a href='#first-screen' class='menu__link'>ГЛАВНАЯ</a>
+												</li>
+												<li class='menu__item'>
+													<a href='#tariffs' class='menu__link'>ТАРИФЫ</a>
+												</li>
+												<li class='menu__item'>
+													<a href='#reviews' class='menu__link'>ОТЗЫВЫ</a>
+												</li>
+												<li class='menu__item'>
+													<a href='#faq' class='menu__link'>FAQ</a>
+												</li>
+												<li class='menu__item'>
+													<a href='#contacts' class='menu__link'>КОНТАКТЫ</a>
+												</li>
+												<li class='menu__item'>
+													<a href='#functional' class='menu__link'>ФУНКЦИОНАЛ</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+									<div class="navigation__settings">
+										<form class="navigation__language">
+											<select name="form[]" class="navigation__select navigation__select_bottom">
+												<option value="1" selected="selected">
+													<img src="img/header/ru.svg" alt=""> RU
+												</option>
+												<option	value="2">
+													<img src="img/header/ru.svg" alt=""> EN
+												</option>
+											</select>
+										</form>
+										<a href="" class="navigation__signin">
+											<img src="img/header/user.svg" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+							<p class="footer__copy">Защищено 2022 (C)</p>
+						</footer>
+					</div>
+				</div>
+			</section>  
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+
+	</div>
+</footer>
+	</div>
+	<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
